@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // nomor 1
+        let bil1 = 6;
+        let bil2 = 2;
+        let bil3 = -8;
+
+        if(bil1 > bil2 && bil1 > bil3) {
+            console.log("bilangan satu terbesar = "+bil1+"");
+        }  else if(bil2 > bil1 && bil2 > bil3 ) {
+            console.log("bilangan dua terbesaar = "+bil2+"");
+        } else if(bil3 > bil1 && bil3 > bil2) {
+            console.log("bilangan tiga terbesar = "+bil3+"");
+        }
+
+        // nomor 2
+        let angka = -8
+
+        if(angka > 0) {
+            console.log("Bilangan positif")
+        }
+        else{
+            console.log("Bilangan negatif")
+        }
+
+        if(angka % 2 == 0) {
+            console.log("bilangan genap")
+        } else {
+            console.log("bilangan ganjil")
+        }
+
+        // nomor 3
+        let lampu = 1;
+
+        if(lampu == 0) {
+            console.log("OFF")
+        } else if(lampu == 1) {
+            console.log("ON")
+        } else {
+            console.log("Masukkan angka 0 atau 1")
+        }
+
+        // nomor 4
+        let barang1 = 25000;
+        let barang2 = 150000;
+        let barang3 = 43000;
+
+        let total = barang1 + barang2 + barang3;
+
+        if( total > 100000 ){
+            diskon = total * (10/100);
+            harga = total - diskon;
+        } else {
+           harga = total;
+        }
+
+        console.log(`harga yang harus dibayar adalah ${harga}`)
+
+        // nomor 5
+        let lembur = 8;
+
+        if(lembur <6 ) {
+            console.log("Gaji lembur 100.000")
+        } else if(lembur == 6) {
+            console.log("Gaji lembur 200.000")
+        } else{
+            console.log("Gaji lembur 300.000")
+        }
+
+        // nomor 6
+        let air = 600;
+
+        if(air<=500) {
+            console.log("AMAN")
+        } else if( air > 500 && air >= 1600) {
+            console.log("WASPADA")
+        } else if( air > 600 && air >=1650) {
+            console.log("SIAGA 2")
+        } else {
+            console.log("SIAGA 1")
+        }
+
+
+        
+    </script>
+</body>
+</html>
